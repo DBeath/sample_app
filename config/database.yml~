@@ -13,7 +13,7 @@ development:
   encoding: unicode
   database: db/app_development
   pool: 5
-  username: dbeath
+  username: blog
   password:
 
 # Warning: The database defined as "test" will be erased and
@@ -32,5 +32,5 @@ production:
   encoding: unicode
   database: db/app_production
   pool: 5
-  username: app
+  username: dbeath
   password:
