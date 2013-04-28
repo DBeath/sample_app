@@ -5,12 +5,17 @@ gem 'rails', '3.2.13'
 gem 'pg'
 gem 'heroku'
 gem 'bootstrap-sass', '2.1'
+gem 'bcrypt-ruby'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
   gem 'rspec-rails'
+end
+
+group :development do
+  gem 'annotate', '2.5.0'
 end
 
 group :test do
